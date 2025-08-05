@@ -34,7 +34,7 @@ for i in range(epochs):
 print(f"Final parameters: m = {m:.4f}, b = {b:.4f}")
 
 plt.scatter(df.x, df.y, color='black')
-plt.plot(df.x, [m * x + b for x in df.x], color='red')  # Fixed x-axis
+plt.plot(df.x, [m * x + b for x in df.x], color='red')  
 plt.xlabel('x')
 plt.ylabel('y')
 plt.show()
